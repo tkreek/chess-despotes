@@ -1,0 +1,42 @@
+{
+	"name": "chess-despotes",
+	"version": "0.0.1",
+	"private": true,
+	"type": "module",
+	"imports": {
+		"#lib": "./src/lib/index.js",
+		"#lib/*": "./src/lib/*"
+	},
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"prepare": "svelte-kit sync || echo ''",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"openings:check": "node scripts/validate-openings.mjs",
+		"data:eco": "node scripts/build-eco.mjs",
+		"data:puzzles": "node scripts/build-puzzles.mjs",
+		"start": "HOST=${HOST:-127.0.0.1} PORT=${PORT:-4317} node build"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-node": "^6.0.1",
+		"@sveltejs/kit": "^3.0.0",
+		"@sveltejs/vite-plugin-svelte": "^7.2.0",
+		"@types/better-sqlite3": "^9.6.0",
+		"@types/node": "^26.6.6",
+		"svelte": "^5.57.2",
+		"svelte-check": "^4.6.0",
+		"typescript": "^6.0.3",
+		"vite": "^8.3.0"
+	},
+	"dependencies": {
+		"@mliebelt/pgn-parser": "^1.4.19",
+		"better-sqlite3": "^13.0.3",
+		"chess.js": "^1.4.0",
+		"chessground": "^9.2.1",
+		"idb": "^8.0.4"
+	},
+	"license": "GPL-3.0-or-later",
+	"description": "Local-first chess study app: opening repertoires with spaced repetition, puzzles, game review, vision training, and stats — Omarchy-themed."
+}

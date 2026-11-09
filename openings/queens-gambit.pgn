@@ -1,0 +1,24 @@
+[Library "Queen's Gambit"]
+[Side "white"]
+[Description "The cornerstone of 1.d4 play: offer the c-pawn to deflect Black's d-pawn and dominate the center."]
+[Event "Queen's Gambit Declined: 2...e6"]
+
+1. d4 d5 2. c4 {The gambit — not a real sacrifice, as the pawn can usually be won back.} e6 {Solid. Black keeps a foothold on d5.} 3. Nc3 Nf6 4. Bg5 {Pinning the knight increases pressure on d5.} Be7 5. e3 O-O 6. Nf3 h6 7. Bh4 b6 {The Tartakower setup.} 8. cxd5 Nxd5 9. Bxe7 Qxe7 10. Nxd5 exd5 11. Rc1 {Pressure down the c-file against the hanging c-pawn.} *
+
+[Library "Queen's Gambit"]
+[Side "white"]
+[Event "Queen's Gambit Accepted: 2...dxc4"]
+
+1. d4 d5 2. c4 dxc4 {Black takes the pawn but gives up the center.} 3. e4 {The most ambitious: build a full center.} e5 (3... Nf6 4. e5 Nd5 5. Bxc4 Nb6 6. Bb3 {White has a strong space advantage.}) 4. Nf3 exd4 5. Bxc4 Nc6 6. O-O Be6 7. Bxe6 fxe6 8. Qb3 {Hitting b7 and e6.} *
+
+[Library "Queen's Gambit"]
+[Side "white"]
+[Event "Slav Defense: 2...c6"]
+
+1. d4 d5 2. c4 c6 {Supporting d5 without blocking the c8 bishop.} 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 {Stopping ...b5 so the pawn can be won back.} Bf5 6. e3 e6 7. Bxc4 Bb4 8. O-O O-O 9. Qe2 {Preparing e4.} *
+
+[Library "Queen's Gambit"]
+[Side "white"]
+[Event "Albin Countergambit: 2...e5"]
+
+1. d4 d5 2. c4 e5 {A sharp countergambit.} 3. dxe5 d4 4. Nf3 Nc6 5. g3 {Fianchetto and win the e5 pawn's value back with a safe king.} Be6 (5... Bg4 6. Bg2 Qd7 7. O-O O-O-O 8. Nbd2) 6. Nbd2 Qd7 7. Bg2 O-O-O 8. O-O *

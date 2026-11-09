@@ -1,0 +1,18 @@
+[Library "London System"]
+[Side "white"]
+[Description "A low-theory, plan-based system: the same setup against almost anything Black plays."]
+[Event "vs 1...d5"]
+
+1. d4 d5 2. Bf4 {The London bishop goes out before e3 locks it in.} Nf6 3. e3 e6 (3... c5 4. c3 Nc6 5. Nd2 {Supporting the center; Qb3 ideas follow.} Qb6 6. Qb3 c4 7. Qc2) 4. Nf3 c5 5. c3 Nc6 6. Nbd2 Bd6 7. Bg3 {Keep the bishop rather than allow structural damage.} O-O 8. Bd3 b6 9. Ne5 {The classic London outpost.} *
+
+[Library "London System"]
+[Side "white"]
+[Event "vs King's Indian setup"]
+
+1. d4 Nf6 2. Bf4 g6 3. Nf3 Bg7 4. e3 O-O 5. Be2 d6 6. h3 {A luft for the bishop to retreat to h2.} Nbd7 7. O-O c5 8. c3 b6 9. a4 {Gaining queenside space.} *
+
+[Library "London System"]
+[Side "white"]
+[Event "vs Queen's Indian / ...b6"]
+
+1. d4 Nf6 2. Bf4 e6 3. e3 b6 4. Nd2 Bb7 5. Ngf3 c5 6. c3 Be7 7. h3 O-O 8. Bd3 d6 9. O-O Nbd7 10. Qe2 *
